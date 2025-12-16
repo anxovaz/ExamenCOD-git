@@ -1,5 +1,9 @@
 # Examen 1ª Evaluación (2ª Parte) - Control de Versiones
 
+## Nombre
+
+- Anxo Vázquez Lorenzo
+
 ---
 
 ## Instrucciones
@@ -14,6 +18,30 @@
 
 Pregunta 
 - ¿Qué paso es fundamental cuando clonamos un repositorio ajeno para que podamos subir nuestros propios commits? Explícalo y utiliza capturas de pantalla.
+
+### Respuesta
+
+Clono el repositorio con la terminal y creo un directorio llamado `images` para guardar las capturas.
+
+![clonar](./images/clonado_repositorio.png)
+
+Después creo un repositorio en github y elimino el remoto `origin` del repositorio local y agrego el de mi repositorio de github.
+
+![remote](./images/remote.png)
+
+Para terminar realizo el `commit` y el `push` desde `pycharm`.
+
+Para hacerlo desde la terminal sería:
+
+```
+git status #modificaciones
+git add <archivo1> <archivo2> ...
+git commit -m "Mensaje"
+git push
+```
+
+
+
 
 ### Apartado 2
 
