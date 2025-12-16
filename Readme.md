@@ -71,7 +71,7 @@ Para ver lo que se ha descargado con el `fetch` uso el siguiente comando:
 
 ![log](./images/git_log.png)
 
-Ahora para que el código modificado llegue a mi rama local uso `git rebase` (también valdría `git merge`) desde `pycharm`.
+Ahora para que el código modificado llegue a mi rama local uso `git rebase` (también valdría `git merge` pero esto se hará en el siguiente apartado con `git pull`) desde `pycharm`.
 
 Para hacerlo desde terminal:
 
@@ -95,3 +95,24 @@ Realizo un `commit & Push` desde `pycharm` al repositorio remoto (el mío de `gi
 Pregunta
 - Explica los pasos dados para que el cambio realizado en GitHub, llegue a tu rama principal local. Explícalo con capturas de pantalla.
 
+### Respuesta
+
+Primero realizo una modificación desde `github` a `./src/main.py`:
+
+![mod_desde_github](./images/modificacion_desde_github2.png)
+
+Ahora para traerme los cambios utilizo `git pull` desde `pycharm` que por defecto utiliza `fetch` y `merge`.
+
+Para hacerlo desde terminal:
+
+```
+git pull #--rebase para usar rebase en vez de merge
+```
+
+![pull](./images/pull.png)
+
+Compruebo que se ha modificado `./src/main.py`:
+
+![cambios](./images/cambios_en_mainpy.png)
+
+Para terminar realizo un `commit & push` de los cambios en el `Readme.md` y capturas.
