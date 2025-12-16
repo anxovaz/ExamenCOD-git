@@ -42,8 +42,6 @@ git push
 
 ![push_y_commit](./images/commit&push.png)
 
-
-
 ### Apartado 2
 
 - Realiza una modificación en el código en la web de tu repositorio en GitHub
@@ -51,6 +49,43 @@ git push
 
 Pregunta
 - Explica los pasos para que el código modificado en GitHub, llegue a tu rama principal local. Explícalo con capturas de pantalla.
+
+
+### Respuesta
+
+Primero modifico el archivo `./src/main.py` desde `github`:
+
+![modificaciongithub](./images/modificacion_desde_github.png)
+
+Utilizo `git fetch` para descargarme los cambios con `pycharm`.
+
+Para hacerlo desde terminal:
+
+```
+git fetch
+```
+
+![fetch](./images/fetch.png)
+
+Para ver lo que se ha descargado con el `fetch` uso el siguiente comando:
+
+![log](./images/git_log.png)
+
+Ahora para que el código modificado llegue a mi rama local uso `git rebase` (también valdría `git merge`) desde `pycharm`.
+
+Para hacerlo desde terminal:
+
+```
+git rebase origin/main
+```
+
+![rebase](./images/rebase.png)
+
+Para termninar compruebo los cambios de `./src/main.py` en local:
+
+![rebase-fetch-mainpy](./images/mainpyfetch.png)
+
+Realizo un `commit & Push` desde `pycharm` al repositorio remoto (el mío de `github`) con las capturas y las modificaciones del `REAMDE.md`
 
 ### Apartado 3
 
