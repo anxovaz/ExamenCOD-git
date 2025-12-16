@@ -116,3 +116,70 @@ Compruebo que se ha modificado `./src/main.py`:
 ![cambios](./images/cambios_en_mainpy.png)
 
 Para terminar realizo un `commit & push` de los cambios en el `Readme.md` y capturas.
+
+## `git log` del repositorio local
+
+```
+dam@Aula8-PC05:~/examenCOD/ExamenCOD$ git log
+commit a1d77c724f8a81bfec47c4d7f040102c53b6fdbc (HEAD -> main, origin/main)
+Author: anxovaz <avazquezlorenzo@danielcastelao.org>
+Date:   Tue Dec 16 14:07:02 2025 +0100
+
+    Apartado 3 - Actualización Readme.md con respuesta y capturas
+
+commit f8755b988f880f4f0308b57383bcf5812ecff00c
+Author: anxovaz <avazquezlorenzo@danielcastelao.org>
+Date:   Tue Dec 16 14:00:27 2025 +0100
+
+    Apartado 3 - Modificacion main.py desde github
+
+commit 902932a265b16bbd4f2b08698b7a039aa2e1e1af
+Author: anxovaz <avazquezlorenzo@danielcastelao.org>
+Date:   Tue Dec 16 13:55:26 2025 +0100
+
+    Apartado 2 - Modificaciones en Readme.md y capturas del apartado2
+
+commit f808e1f9dc3fe734df4a481f1836d891322034be
+Author: anxovaz <avazquezlorenzo@danielcastelao.org>
+Date:   Tue Dec 16 13:37:17 2025 +0100
+
+    Apartado 2 - Modificación main.py desde github
+
+commit 6f8cd8ae63e3b6e46c97cc6f4e5a35f9f799a470
+Author: anxovaz <avazquezlorenzo@danielcastelao.org>
+Date:   Tue Dec 16 13:32:38 2025 +0100
+
+    Apartado 1 - Imágen de push desde pycharm
+
+commit 5dd09bae7fac5b5ec6753431929a3a39e17dd496
+Author: anxovaz <avazquezlorenzo@danielcastelao.org>
+Date:   Tue Dec 16 13:30:52 2025 +0100
+
+    Apartado 1 - Agregar carpeta ./images/
+
+commit 0077a68b421dca0d5294c8a716a8536e3f69b357
+Author: anxovaz <avazquezlorenzo@danielcastelao.org>
+Date:   Tue Dec 16 13:30:05 2025 +0100
+
+    Apartado 1 - Clonado de repositorio y remotos
+
+commit 8d2cbecd773657f189ffe4e234066a5e26566b54
+Author: Damian <damiannogueiras@gmail.com>
+Date:   Mon Dec 15 09:06:23 2025 +0100
+
+    Instrucciones examen
+
+commit d317ef03ce497ec99b6c70c6621d7a13f4692eb1 (tag: v0.1)
+Author: Damian Nogueiras <damian@danielcastelao.org>
+Date:   Sun Mar 3 17:05:44 2024 +0100
+
+    version 0.1
+
+commit ec971dc33097272b6c1049a16c887e6651cd5df7
+Author: Damian Nogueiras <damian@danielcastelao.org>
+Date:   Sun Mar 3 17:04:19 2024 +0100
+
+    Initial commit
+
+
+```
