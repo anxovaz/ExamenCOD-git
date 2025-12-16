@@ -40,6 +40,7 @@ git commit -m "Mensaje"
 git push
 ```
 
+![push_y_commit](./images/commit&push.png)
 
 
 
